@@ -24,7 +24,7 @@ app.listen(PORT,() => {
 
 
 app.get("/", (req, res) => {
-    res.send("Welcome to mentor assignment APP");
+    res.send("Welcome to Student Mentor assignment APP");
   });
 
 
