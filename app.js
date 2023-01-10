@@ -5,7 +5,6 @@ dotenv.config();
 
  var app=express();
  app.use(express.json());
- 
 const MONGO_URL=process.env.MONGO_URL;
 
 
